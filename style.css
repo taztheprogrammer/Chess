@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(360, 50%, 50% );
+}
+
+
+#main {
+    height: 600px;
+    width: 100%;
+    background-color: hsl(360, 40%, 50% );
+    margin: auto;
+    padding-top: 20px;
+}
+
+#game-grid {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    background-color: black;
+    
+}
+
+#game-grid > div {
+    border: 1px solid white;    
+}
