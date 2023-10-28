@@ -2,6 +2,7 @@ const grid = document.getElementById('game-grid');
 
 let evenOdd = 2;
 
+//gridSet
 for(i = 1; i < 65; i++) {
     const temp = document.createElement('div');
 
@@ -24,3 +25,5 @@ for(i = 1; i < 65; i++) {
     
     grid.appendChild(temp);
 }
+
+//gridInitailize
